@@ -4,7 +4,6 @@ public class SimpleCalculationTest {
     @Test
     public void CalculateTwoDigits()
     {
-        int c = 5;
         int a = 5;
         int b = 10;
         int sum = a+ b;
