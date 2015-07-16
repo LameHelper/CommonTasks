@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-public class SimpleCalculation {
+public class SimpleCalculationTest {
     @Test
     public void CalculateTwoDigits()
     {
