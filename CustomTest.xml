@@ -1,9 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-
-<suite name="Suite1" verbose="1" >
-    <test name="Nopackage" >
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<suite name="SimpleCalcTestSuite">
+    <test name="SimpleTestCase" >
         <classes>
             <class name="SimpleCalculationTest" />
         </classes>
     </test>
 </suite>
+    </project>
